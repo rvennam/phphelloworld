@@ -1,0 +1,60 @@
+{
+	"name" : "PHP",
+	"services" : [],
+	"type" : "web",
+	"version" : "1.0",
+	"description" : "A simple PHP application that will get you up and running quickly.",
+	"smallIcon" : "i-php-24.png",
+	"icon" : "i-php-32.png",
+	"largeIcon" : "i-php-50.png",
+	"featuredIcon" : "i-php-64.png",
+	"buildpack" : "php_buildpack",
+	"system_tags" : ["ibm_community"],
+	"categories" : ["runtime"],
+	"metadata" : {
+		"termsUrl" : "https://www.ibm.com/software/sla/sladb.nsf/sla/bm-6626-01"
+	},
+	"source" : {
+		"scmType" : "git",
+		"url" : ".git",
+		"appPath" : "app"
+	},
+	"docURL" : "/#starters/php/index.html",
+	"extra" : {
+		"i18n" : {
+			"de" : {
+				"name" : "PHP",
+				"description" : "Eine einfache PHP-Anwendung, mit deren Hilfe Sie ohne zeitliche Verzögerungen mit Ihrer Arbeit beginnen können."
+			},
+			"es" : {
+				"name" : "PHP",
+				"description" : "Una sencilla aplicación PHP que podrá configurar y ejecutar rápidamente."
+			},
+			"fr" : {
+				"name" : "PHP",
+				"description" : "Application PHP simple qui permet une mise en route rapide. "
+			},
+			"it" : {
+				"name" : "PHP",
+				"description": "Una semplice applicazione PHP che vi consentirà di essere subito operativi."
+			},
+			"ja" : {
+				"name" : "PHP",
+				"description" : "素早く実行することができるシンプルな PHP アプリケーション。"
+			},
+			"pt-BR" : {
+				"name" : "PHP",
+				"description" : "Um aplicativo PHP simples que permitirá que você o execute rapidamente."
+			},
+			"zh-Hans" : {
+				"name" : "PHP",
+				"description" : "简单的 PHP 应用程序，您可快速开始并运行。"
+			},
+			"zh-Hant" : {
+				"name" : "PHP",
+				"description" : "簡單的 PHP 應用程式，它將讓您快速開始運作。"
+			}
+		}
+	}
+
+}
