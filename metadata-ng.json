@@ -1,60 +1,53 @@
 {
-	"name" : "PHP",
-	"services" : [],
-	"type" : "web",
-	"version" : "1.0",
-	"description" : "A simple PHP application that will get you up and running quickly.",
-	"smallIcon" : "i-php-24.png",
-	"icon" : "i-php-32.png",
-	"largeIcon" : "i-php-50.png",
-	"featuredIcon" : "i-php-64.png",
-	"buildpack" : "php_buildpack",
-	"system_tags" : ["ibm_community"],
-	"categories" : ["runtime"],
-	"metadata" : {
-		"termsUrl" : "https://www.ibm.com/software/sla/sladb.nsf/sla/bm-6626-01"
-	},
-	"source" : {
-		"scmType" : "git",
-		"url" : "https://github.com/rvennam/phphelloworld.git",
-		"appPath" : "app"
-	},
-	"docURL" : "/#starters/php/index.html",
+    "name": "Ruby Sinatra Testing",
+    "services": [],
+    "description": "Focused on quickly creating web applications in Ruby with minimal effort.",
+    "type": "web",
+    "system_tags": ["ibm_created"],
+    "categories": ["boilerplate"],
+    "source": {
+        "scmType": "git",
+        "url": ".git",
+        "appPath": "app"
+    },
+	"docURL": "/#starters/rubysinatra/index.html#rubyhelloworld",
+    	"runtime_id": "d70d427c-eb92-43a7-a3fa-67e9885ad044",
+	"categories": ["boilerplate"],
+	"runtime_template_id": "javaHelloWorld",
 	"extra" : {
 		"i18n" : {
 			"de" : {
-				"name" : "PHP",
-				"description" : "Eine einfache PHP-Anwendung, mit deren Hilfe Sie ohne zeitliche Verzögerungen mit Ihrer Arbeit beginnen können."
+				"name": "Ruby Sinatra",
+				"description": "Hierbei steht die schnelle Erstellung von Webanwendungen in Ruby mit einem minimalen Aufwand im Vordergrund."
 			},
 			"es" : {
-				"name" : "PHP",
-				"description" : "Una sencilla aplicación PHP que podrá configurar y ejecutar rápidamente."
+				"name": "Ruby Sinatra",
+				"description": "Centrada en crear rápidamente aplicaciones web en Ruby con el mínimo esfuerzo. "
 			},
 			"fr" : {
-				"name" : "PHP",
-				"description" : "Application PHP simple qui permet une mise en route rapide. "
+				"name": "Ruby Sinatra",
+				"description": "Création rapide d'applications Web dans Ruby avec un minimum d'effort. "
 			},
 			"it" : {
-				"name" : "PHP",
-				"description": "Una semplice applicazione PHP che vi consentirà di essere subito operativi."
+				"name": "Ruby Sinatra",
+				"description": "Realizzata per creare rapidamente applicazioni Web in Ruby con il minimo sforzo."
 			},
 			"ja" : {
-				"name" : "PHP",
-				"description" : "素早く実行することができるシンプルな PHP アプリケーション。"
+				"name": "Ruby Sinatra",
+				"description": "最小限の労力で Web アプリケーションを Ruby で 素早く作成することに重点を置いています。"
 			},
 			"pt-BR" : {
-				"name" : "PHP",
-				"description" : "Um aplicativo PHP simples que permitirá que você o execute rapidamente."
+				"name": "Ruby Sinatra",
+				"description": "Possui foco na criação rápida de aplicativos da web no Ruby com esforço mínimo."
 			},
 			"zh-Hans" : {
-				"name" : "PHP",
-				"description" : "简单的 PHP 应用程序，您可快速开始并运行。"
+				"name": "Ruby Sinatra",
+				"description": "专注于在 Ruby 中以最小的消耗快速创建 Web 应用程序。"
 			},
 			"zh-Hant" : {
-				"name" : "PHP",
-				"description" : "簡單的 PHP 應用程式，它將讓您快速開始運作。"
+				"name": "Ruby Sinatra",
+				"description": "專注於花費最少精力，在 Ruby 快速建立 Web 應用程式。"
 			}
 		}
 	}
-
 }
