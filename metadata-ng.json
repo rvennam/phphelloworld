@@ -13,7 +13,6 @@
 	"docURL": "/#starters/rubysinatra/index.html#rubyhelloworld",
     	"runtime_id": "d70d427c-eb92-43a7-a3fa-67e9885ad044",
 	"categories": ["boilerplate"],
-	"runtime_template_id": "javaHelloWorld",
 	"extra" : {
 		"i18n" : {
 			"de" : {
