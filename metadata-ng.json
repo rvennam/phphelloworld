@@ -11,6 +11,7 @@
 	"buildpack" : "php_buildpack",
 	"system_tags" : ["ibm_community"],
 	"categories" : ["runtime"],
+	"stack" : "lucid64",
 	"metadata" : {
 		"termsUrl" : "https://www.ibm.com/software/sla/sladb.nsf/sla/bm-6626-01"
 	},
